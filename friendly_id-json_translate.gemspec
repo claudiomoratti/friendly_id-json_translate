@@ -7,8 +7,8 @@ require 'friendly_id/json_translate/version'
 Gem::Specification.new do |s|
   s.name        = 'friendly_id-json_translate'
   s.version     = FriendlyId::JsonTranslate::VERSION
-  s.authors     = ['Alexandre Ferraille']
-  s.email       = ['alexandre.ferraille@gmail.com']
+  s.authors     = ['Alexandre Ferraille', 'Claudio Moratti']
+  s.email       = ['alexandre.ferraille@gmail.com', 'claudio@leevee.it']
   s.homepage    = 'https://github.com/alexandre025/friendly_id-json_translate'
   s.summary     = 'Summary of FriendlyId::JsonTranslate.'
   s.description = 'Description of FriendlyId::JsonTranslate.'
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir['lib']
 
   s.add_dependency 'friendly_id', '~> 5.2.0'
-  s.add_dependency 'json_translate', '~> 3.0.0'
+  s.add_dependency 'json_translate', '~> 4.2.0'
 
 end
