@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir['lib']
 
   s.add_dependency 'friendly_id', '~> 5.2.0'
-  s.add_dependency 'json_translate', '~> 4.2.0'
+  s.add_dependency 'json_translate', '~> 4.0.0'
 
 end
